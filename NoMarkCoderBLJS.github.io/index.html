@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="style.css">
+    <title>Momentum</title>
+</head>
+<body>
+    <hr>
+    <h3>위치 찍기</h3>
+    <span id="temp"></span>
+    <span id="place"></span>
+    <hr>
+    <h3>시간 나타내기</h3>
+    <div id="clock">
+        <h1 id="h1">00:00:00</h1>
+     </div> 
+     <hr>
+
+     <h3>배경 이미지 변경하기</h3>
+     <button id="btn"> push me</button>
+
+     <hr>
+     <h3>로그인하기 있으면 인삿말</h3>
+     <form id="login-form">
+        <input
+            required
+            maxlength="15"
+            type="text"
+            placeholder="What is your name?"
+        />
+        <input type="submit" value="Log In" />
+    </form>
+    <h1 id="greeting" class="hidden"></h1>
+    <hr>
+
+    <h3>To do list 작성</h3>
+     <form id="todo-form">
+        <input type="text" placeholder="당신은 뭘 하실건가요?😃" required>
+      </form>
+      <ul id="todo-list"></ul>
+
+      <hr>
+     <script src="clock.js"></script>
+     <script src="random.js"></script>
+    <script src="app.js"></script>
+    <script src="weather.js"></script>
+    <script src="login.js"></script>
+</body>
+</html>
